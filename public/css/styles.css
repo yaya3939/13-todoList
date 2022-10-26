@@ -68,7 +68,8 @@ p {
   color: #00204a;
 }
 
-form {
+/* 中间没有空格，会作用在有item这个class的form上 */
+form.item {
   text-align: center;
 
   margin-left: 20px;
